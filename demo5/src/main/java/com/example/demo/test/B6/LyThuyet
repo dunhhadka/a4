@@ -1,0 +1,5 @@
+- Khi tạo GetMapping ở controller thì RequestParam dùng để lấy giá trị truyền từ client thông qua key và tham số trên url
+có dang ?key1=thamso1&key2=thamso2...
+
+-Truyền tham số trên url có 2 cách là truyền theo kiểu key và value , dùng RequestParam để lấy giá trị ,
+truyền theo kiểu /{value} dùng PathVariable để lấy giá trị
